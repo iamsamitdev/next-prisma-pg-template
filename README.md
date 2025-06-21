@@ -53,11 +53,20 @@ BookGeek เป็นแพลตฟอร์มออนไลน์สำห�
 - **Responsive Navigation**: เมนูที่รองรับทุกขนาดหน้าจอ
 - **Profile Dropdown**: เมนู profile พร้อม logout functionality
 - **Performance Indicators**: แสดงสถานะและเวลาโหลดแบบ real-time
+- **Custom 404 Page**: หน้า Not Found ที่สวยงามพร้อมแอนิเมชันและ gradient background
 
 ### 📋 หน้านโยบายและเงื่อนไข
 - **นโยบายความเป็นส่วนตัว**: ตาม PDPA
 - **เงื่อนไขการใช้งาน**: ข้อกำหนดการใช้บริการ
 - **นโยบายการใช้คุกกี้**: การจัดการคุกกี้
+
+### 🚫 Error Handling & User Experience
+- **Custom 404 Page**: หน้า Not Found ที่มีการออกแบบสวยงาม
+  - Gradient background พร้อมแอนิเมชัน
+  - ข้อความภาษาไทยที่เป็นมิตร
+  - ปุ่มกลับหน้าหลักและกลับหน้าก่อนหน้า
+  - เอฟเฟกต์ hover และ animation ที่นุ่มนวล
+  - Decorative elements พร้อม background blur
 
 ## 🚀 เทคโนโลยีที่ใช้
 
@@ -207,6 +216,7 @@ booking-app-opec/
 │   │   │       └── page.tsx
 │   │   ├── layout.tsx    # Root layout
 │   │   ├── globals.css   # Global styles + Toast styling
+│   │   ├── not-found.tsx # Custom 404 page with animations
 │   │   └── favicon.ico
 │   ├── components/
 │   │   ├── ui/           # UI components (shadcn/ui)
