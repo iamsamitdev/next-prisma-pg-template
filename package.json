@@ -9,7 +9,7 @@
     "lint": "next lint",
     "db:generate": "prisma generate",
     "db:seed": "tsx prisma/seed.ts",
-    "db:reset": "prisma migrate reset && prisma generate && npm run db:seed"
+    "db:reset": "prisma migrate reset --force && prisma generate && npm run db:seed"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
